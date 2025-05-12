@@ -9,6 +9,17 @@ This repository contains code for a retrieval-augmented generation (RAG) pipelin
 - `prep_elastic.py`: Indexes corpus passages into ElasticSearch
 - `FLARE_100_samples.json`, `config_new.json`: Sample config and input files
 
+## 📥 Download the IIRC Dataset
+
+To download and prepare the IIRC dataset, run the following commands:
+
+```bash
+wget -O data/iirc.tgz https://iirc-dataset.s3.us-west-2.amazonaws.com/iirc_train_dev.tgz
+tar -xzvf data/iirc.tgz
+mv iirc_train_dev/ data/iirc
+rm data/iirc.tgz
+
+
 ## 🚀 How to Run (on a Unity server or SLURM-like environment)
 
 Replace paths like `/path/to/your/...` with actual file locations.
