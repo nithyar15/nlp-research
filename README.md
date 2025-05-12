@@ -49,4 +49,4 @@ python prep_elastic.py --data_path /path/to/iirc-beir/corpus.tsv --index_name ii
 curl -X GET "localhost:9200/_cat/indices?v"
 
 # Step 7: Run the main script
-python -u main.py -c /path/to/ablation_config.json > ~/train.log 2>&1 &
+python -u main.py -c /path/to/config.json > ~/train.log 2>&1 &
