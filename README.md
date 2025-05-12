@@ -3,7 +3,7 @@ This repository contains code for a retrieval-augmented generation (RAG) pipelin
 
 ## 📁 Contents
 
-- `generate.py`: Core logic for different RAG strategies (basic, token-aware, attention-weighted, etc.)
+- `generate.py`: Core logic for DRAGIN RAG strategy
 - `main.py`: Main script to execute inference with config-based setup
 - `evaluate.py`: Evaluation script for computing EM, F1, precision, recall, etc.
 - `prep_elastic.py`: Indexes corpus passages into ElasticSearch
