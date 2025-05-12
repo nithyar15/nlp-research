@@ -18,6 +18,7 @@ wget -O data/iirc.tgz https://iirc-dataset.s3.us-west-2.amazonaws.com/iirc_train
 tar -xzvf data/iirc.tgz
 mv iirc_train_dev/ data/iirc
 rm data/iirc.tgz
+```
 
 
 ## 🚀 How to Run (on a Unity server or SLURM-like environment)
