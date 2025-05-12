@@ -1,5 +1,4 @@
-# NLP Research: Retrieval-Augmented Generation with Hallucination Detection
-
+# NLP Research: Do Adaptive Dynamic Retrieval Augment LLMs Really Work?
 This repository contains code for a retrieval-augmented generation (RAG) pipeline enhanced with hallucination detection. The system uses LLaMA-3 or similar LLMs to iteratively generate answers to complex questions, while fetching supporting evidence from an ElasticSearch index based on hallucination-triggering mechanisms like token logprobs or attention weights.
 
 ## 📁 Contents
