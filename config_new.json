@@ -1,0 +1,22 @@
+{
+    "model_name_or_path": "SweatyCrayfish/llama-3-8b-quantized",
+    "method": "dragin",
+    "dataset": "iirc",
+    "data_path": "../data/iirc",
+    "generate_max_length": 32,
+    "query_formulation": "real_words",
+    "retrieve_keep_top_k": 16,
+    "output_dir": "../result_new/llama38b_new/iirc_dragin_ablation1/",
+    "retriever": "BM25",
+    "retrieve_topk": 3,
+    "hallucination_threshold": 1.2,
+    "sentence_solver": "avg",
+    "fewshot": 4,
+    "sample": 1000,
+    "shuffle": false,
+    "check_real_words": true,
+    "es_index_name": "iirc",
+    "use_counter": true,
+    "use_decomposition" : false
+
+}
